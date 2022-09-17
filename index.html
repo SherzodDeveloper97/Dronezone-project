@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dronezone Project</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <!-- <link rel="stylesheet" href="css/mobile_item.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="libs/aos-master/dist/aos.css">
+      <style>
+          #map {
+            height: 598px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <div class="container">
+                <div class="logo">
+                    <h6>Drone</h6>
+                    <span>Zone</span>
+                </div>
+                <div class="humburger_menu">
+                    <input type="checkbox" name="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <div class="menu_btn">
+                            <div class="menu_btn__burger"></div>
+                        </div>                    
+                    </label>
+                    <div class="header_item">
+                        <div class="menu_block">
+                            <div class="menu">
+                                <ul>
+                                    <li><a>Home</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Pricing</a></li>
+                                    <li><a>Our drones</a></li>
+                                    <li><a>Our realizations</a></li>
+                                </ul>
+                            </div>
+                            <a class="contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <div class="header_bottom">
+            <div class="container">
+                <h1>Film your event with us!</h1>
+            <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.<br>
+                Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
+            <div class="button_block">
+                <a class="one">Ask for price</a>
+                <div class="block_a">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="14px" height="17px">
+                    <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                    d="M14.000,8.503 L0.011,17.005 L0.011,0.002 L14.000,8.503 Z"/>
+                    </svg>
+                    <a id="watch">Watch video</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_top" data-aos="fade-right">
+            <div class="container">
+                <div class="content">
+                    <div class="content_item">
+                        <img src="images/drone.png" alt="drone" class="content_image" id="content_image1">
+                        <h4>From air</h4>
+                        <p>Pellentesque eget nunc sit<br> amet urna ullamcorper fermen-<br>tum et eu leo.</p>
+                    </div>
+                    <div class="content_item">
+                        <img src="images/drone-1.png" alt="drone" class="content_image">
+                        <h4>Best drones</h4>
+                        <p>Pellentesque eget nunc sit<br> amet urna ullamcorper fermen-<br>tum et eu leo.</p>
+                    </div>
+                    <div class="content_item">
+                        <img src="images/propeller.png" alt="drone" class="content_image">
+                        <h4>Speed</h4>
+                        <p>Pellentesque eget nunc sit<br> amet urna ullamcorper fermen-<br>tum et eu leo.</p>
+                    </div>
+                    <div class="content_item">
+                        <img src="images/control.png" alt="drone" class="content_image">
+                        <h4>Long range</h4>
+                        <p>Pellentesque eget nunc sit<br> amet urna ullamcorper fermen-<br>tum et eu leo.</p>
+                    </div>
+                </div>
+                <a href="#" class="content_a">Ask for price</a>
+            </div>
+        </div>
+        <div class="main_middle" data-aos="fade-left">
+            <div class="container">
+                <div class="item">
+                    <h4>Nature from the air</h4>
+                    <p class="item_p">
+                        Mauris consequat libero metus, nec ultricies sem efficitur quis. Integer bibendum eget metus ac-<br> accumsan. Integer sit amet lacus egestas, semper est quis, viverra ex.
+                    </p>
+                </div>
+                <div class="item_bottom">
+                    <div class="item_left">
+                        <div class="item_block">
+                            <img src="images/one.png" alt="one">
+                            <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum<br> et eu leo. Nunc vel nibh tempor, pharetra lectus congue,<br> luctus orci.</p>
+                        </div>
+                        <div class="item_block">
+                            <img src="images/two.png" alt="two">
+                            <p>Mauris consequat libero metus, nec ultricies sem efficitur<br> quis. Integer bibendum eget metus ac accumsan.</p>
+                        </div>
+                        <div class="item_block">
+                            <img src="images/three.png" alt="three">
+                            <p>Integer sit amet lacus egestas, semper est quis, viverra ex.<br> Mauris consequat libero metus, nec ultricies sem efficitur<br> quis.</p>
+                        </div>
+                    </div>
+                    <div class="item_right">
+                        <div class="item_block">
+                            <img src="images/four.png" alt="four">
+                            <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum<br> et eu leo. Nunc vel nibh tempor, pharetra lectus congue,<br> luctus orci.</p>
+                        </div>
+                        <div class="item_block">
+                            <img src="images/five.png" alt="five">
+                            <p>Mauris consequat libero metus, nec ultricies sem efficitur<br> quis. Integer bibendum eget metus ac accumsan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_content" data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="content_top">
+                <div class="content_left">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CxwJrzEdw1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="content_right">
+                    <div class="content_block">
+                        <h4>Nature from the air</h4>
+                        <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.<br> Nunc vel nibh tempor, pharetra lectus congue, luctus orci nec ultricies<br> sem efficitur quis. Integer bibendum eget metus ac accumsan.</p>
+                        <a class="content_a">Ask for price</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content_bottom">
+                <div class="content_right">
+                    <div class="content_block">
+                        <h4>City from the air</h4>
+                        <p>Mauris consequat libero metus, nec ultricies sem efficitur quis. Integer<br> bibendum eget metus ac accumsan. Integer sit amet lacus egestas, semper<br> est quis, viverra ex. Pellentesque eget nunc sit amet urna ullamcorper fer-<br>mentum et eu leo. </p>
+                        <a class="content_a">Ask for price</a>
+                    </div>
+                </div>
+                <div class="content_left">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vfUrK9pFfUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="main_block" data-aos="zoom-out-up">
+            <div class="container">
+                <h2>Sign up for our newsletter</h2>
+                <form action="handler.php" method="post">
+                    <input type="email" name="email" required placeholder="Email address">
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_top" data-aos="fade-up">
+            <div id="map"></div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Try awsome tool for desgners <span>symu.co</span></p>
+            </div>
+        </div>
+    </footer>
+     
+    <script src="js/script.js"></script>
+    <script src="libs/aos-master/dist/aos.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEeCEeeYnk8YYzQMh9YKNG2kYwCRmWdGo&callback=initMap">
+    </script>
+    <script>
+        AOS.init({
+            offset:400,
+            duration:1000
+        });
+    </script>
+</body>
+</html>
